@@ -1,4 +1,4 @@
-import React, { ComponentPropsWithoutRef, PropsWithChildren } from "react";
+import React, { ComponentPropsWithoutRef } from "react";
 import { cn } from "./cn"; // Assuming cn is a utility for merging class names
 import Link from "next/link";
 import Image from "next/image";

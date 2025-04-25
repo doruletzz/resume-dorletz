@@ -2,9 +2,7 @@
 import React from "react";
 import Card from "./Card";
 import { cn } from "./cn";
-import { useDebouncedCallback } from "./useDebounceCallback";
 import Image from "next/image";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -71,7 +69,7 @@ const CardGrid = () => {
             height={480}
             className="h-full w-auto -rotate-3 group-hover/card:rotate-3 scale-90 group-hover/card:scale-100 transition-transform duration-500 ease-in-out absolute left-4 bottom-1/2 translate-y-1/2 -z-0"
           />
-          "Software Developer"
+          {'Software Developer'}
         </div>
       ),
       image: "/images/image2.jpg",
@@ -117,7 +115,7 @@ const CardGrid = () => {
     {
       content: (
         <p className="text-2xl font-bold font-mono text-center">
-          "Perfect is the enemy of great"
+          {'"Perfect is the enemy of great"'}
         </p>
       ),
       description: "Description 3",

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Card from "./Card";
 import CardGrid from "./CardGrid";
 
 
