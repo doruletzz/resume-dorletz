@@ -76,7 +76,6 @@ const CardGrid = () => {
         "bg-red-400 col-span-2 md:row-end-auto row-end-1 md:min-h-auto min-h-64 pl-12 md:pl-20 ",
     },
     {
-      title: "Title 3",
       content: (
         <iframe
           scrolling="no"
