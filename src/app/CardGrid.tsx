@@ -52,11 +52,9 @@ const CardGrid = () => {
           alt="lamp"
           width={480}
           height={480}
-          className="w-[120%] -rotate-6 group-hover/card:rotate-6 scale-75 group-hover/card:scale-100 group-hover/card:translate-y-1/3 transition-transform duration-500 ease-in-out absolute left-1/2 -translate-x-1/2 bottom-1/4 translate-y-1/2 -z-0"
+          className="w-[120%] -rotate-6 group-hover/card:rotate-6 md:scale-75 scale-100 group-hover/card:scale-100 group-hover/card:translate-y-1/3 transition-transform duration-500 ease-in-out absolute left-1/2 -translate-x-1/2 md:bottom-1/4 bottom-1/3 translate-y-1/2 -z-0"
         />
       ),
-
-      image: "/images/image1.jpg",
       className: "bg-pink-400 col-span-1 md:row-span-2 row-span-1",
     },
     {
