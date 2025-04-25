@@ -22,7 +22,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        "overflow-hidden group/card relative animate-fade-in flex flex-col sm:shadow-none shadow-2xl hover:shadow-xl gap-0 justify-center items-center p-4 rounded-4xl hover:-translate-y-1 transition-[transform_background_opacity] duration-1000 ease-in-out",
+        "overflow-hidden group/card relative animate-fade-in flex flex-col sm:shadow-none shadow-2xl hover:shadow-xl gap-0 justify-center items-center p-4 rounded-4xl hover:-translate-y-2 transition-[transform_background_opacity] duration-500 ease-in-out",
         // "group-hover:bg-neutral-200",
         className
       )}
