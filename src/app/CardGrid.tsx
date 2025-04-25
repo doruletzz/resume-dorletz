@@ -32,7 +32,6 @@ const CardGrid = () => {
             width={80}
             height={80}
             className="w-full"
-            // className="invert"
           />
         </button>
       ),
@@ -41,7 +40,9 @@ const CardGrid = () => {
     {
       title: (
         <div className="flex flex-col md:gap-2 md:group-hover/card:-translate-y-20 transition-transform duration-300 ease-in-out">
-          <h2 className="md:text-2xl text-lg font-bold font-mono">Half Marathon</h2>
+          <h2 className="md:text-2xl text-lg font-bold font-mono">
+            Half Marathon
+          </h2>
           <p className="text-sm opacity-90 text-center">02:17</p>
         </div>
       ),
@@ -69,7 +70,7 @@ const CardGrid = () => {
             height={480}
             className="h-full w-auto -rotate-3 group-hover/card:rotate-3 scale-90 group-hover/card:scale-100 transition-transform duration-500 ease-in-out absolute left-4 bottom-1/2 translate-y-1/2 -z-0"
           />
-          {'Software Developer'}
+          {"Software Developer"}
         </div>
       ),
       image: "/images/image2.jpg",
@@ -80,7 +81,8 @@ const CardGrid = () => {
       title: "Title 3",
       content: (
         <iframe
-          className="absolute -top-[100%] bottom-[100%] -left-[100%] right-[100%] w-[300%] h-[300%] transform-gpu pointer-events-none sm:scale-x-[27%] sm:scale-y-[28%] scale-[34%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[33.73%] text-[4px]"
+          scrolling="no"
+          className="absolute -top-[100%] bottom-[100%] -left-[100%] right-[100%] w-[300%] h-[300%] transform-gpu overflow-hidden pointer-events-none sm:scale-x-[27%] sm:scale-y-[28%] scale-[34%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[33.73%] text-[4px]"
           src="https://home.nasium.coach/"
         />
       ),
@@ -95,7 +97,8 @@ const CardGrid = () => {
       // title: "Title 4",
       content: (
         <iframe
-          className="absolute -top-1/2 bottom-1/2 -left-1/2 right-1/2 w-[200%] h-[200%] pointer-events-none sm:scale-[43%] scale-[50%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[51%]"
+          scrolling="no"
+          className="absolute -top-1/2 bottom-1/2 -left-1/2 right-1/2 w-[200%] h-[200%] overflow-hidden pointer-events-none sm:scale-[43%] scale-[50%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[51%]"
           src="https://factoryicon.org/"
         />
       ),
@@ -126,7 +129,8 @@ const CardGrid = () => {
       // title: "Title 7",
       content: (
         <iframe
-          className="absolute -top-1/2 bottom-1/2 -left-1/2 right-1/2 w-[200%] h-[200%] pointer-events-none transform-gpu sm:scale-y-[42%] sm:scale-x-[44%] scale-[50%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[51%]"
+          scrolling="no"
+          className="absolute -top-1/2 bottom-1/2 -left-1/2 right-1/2 w-[200%] h-[200%] overflow-hidden pointer-events-none transform-gpu sm:scale-y-[42%] sm:scale-x-[44%] scale-[50%] rounded-4xl transition-transform duration-300 ease-in-out group-hover/card:scale-[51%]"
           src="https://talaria.email/"
         />
       ),
