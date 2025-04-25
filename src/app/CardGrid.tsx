@@ -68,7 +68,7 @@ const CardGrid = () => {
             alt="lamp"
             width={480}
             height={480}
-            className="h-full w-auto z-10 -rotate-3 group-hover/card:rotate-3 scale-90 group-hover/card:scale-100 transition-transform duration-500 ease-in-out absolute md:left-4 -left-1/3 bottom-1/2 translate-y-1/2"
+            className="h-full w-auto z-10 -rotate-3 group-hover/card:rotate-3 scale-90 group-hover/card:scale-100 transition-transform duration-500 ease-in-out absolute md:left-4 -left-1/4 bottom-1/2 translate-y-1/2"
           />
           {"Software Developer"}
         </div>
