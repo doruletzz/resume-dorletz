@@ -165,21 +165,21 @@ const CardGrid = () => {
           </Link>
           <Link
             className="p-2 md:p-4 hover:bg-white rounded-full aspect-square transition-transform duration-300 ease-in-out hover:-translate-y-0.5"
-            href="https://github.com/doruletzz"
+            href="https://www.linkedin.com/in/doru-lucian-doros-598046236"
             target="_blank"
           >
             <Image src="/linkedin.svg" alt="github" width={28} height={28} />
           </Link>{" "}
           <Link
             className="p-2 md:p-4 hover:bg-white rounded-full aspect-square transition-transform duration-300 ease-in-out hover:-translate-y-0.5"
-            href="https://github.com/doruletzz"
+            href="https://x.com/dorletz"
             target="_blank"
           >
             <Image src="/x.svg" alt="github" width={28} height={28} />
           </Link>{" "}
           <Link
             className="p-2 md:p-4 hover:bg-white rounded-full aspect-square transition-transform duration-300 ease-in-out hover:-translate-y-0.5"
-            href="https://github.com/doruletzz"
+            href="mailto:dorosdorulucian@gmail.com"
             target="_blank"
           >
             <Image src="/mail.svg" alt="github" width={28} height={28} />
